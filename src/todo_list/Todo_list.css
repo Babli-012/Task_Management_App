@@ -1,0 +1,68 @@
+.todo_list_container{
+    max-width: 144rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+.input{
+    padding: 0.5rem 1.5rem;
+    border-right: none;
+    background-color:beige ;
+}
+.inputbtn{
+    padding: 0.5rem 1.5rem;
+    border-left: none;   
+    text-transform: capitalize;
+    background-color: rgb(25, 208, 25);
+    cursor: pointer;
+    &:hover{
+        background-color: yellow;
+    }
+}
+
+.todo-item-list{
+    width: 15rem;
+    padding:0.5rem 1.2rem;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    box-shadow: 2px 2px 8px 1px black;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.header{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.dltbtn{
+    background-color: red;
+    cursor: pointer;
+   
+}
+.tick{
+    background-color:green;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.clearall-btn{
+    padding: 0.8rem;
+    background-color: red;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.isclicked{
+    text-decoration: line-through;
+}
+
+.notclicked{
+    text-decoration: none;
+}
