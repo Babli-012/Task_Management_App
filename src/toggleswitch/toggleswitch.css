@@ -1,0 +1,33 @@
+/* 
+.toggle {
+    width: 8rem;
+    height: 4rem;
+    border: 2px solid black;
+    border-radius:40px;
+    align-content: center;
+    background-color: #999;
+
+}
+
+.switchbtn {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 0.8rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    cursor: pointer;
+    
+    border: 2px solid greenyellow;
+
+}
+.on{
+    background-color: green;
+    transform: translateX(50px);
+}
+.off{
+    background-color: red;
+    transform: translateX(0);
+}  */
